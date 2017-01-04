@@ -18,11 +18,11 @@ You can also consult our database with French songs and French artists. Discuss 
 <meta name="Robots" content="INDEX,FOLLOW">
 <meta name="Revisit-after" content="1 Day">
 
-<link rel="stylesheet" type="text/css" href="http://www.frenchscene.net/Gui/css/main.css" />
+<link rel="stylesheet" type="text/css" href="/Gui/css/main.css" />
 
-<link rel="stylesheet" type="text/css" href="http://www.frenchscene.net/Gui/css/form.css" />
+<link rel="stylesheet" type="text/css" href="/Gui/css/form.css" />
 
-<link rel="stylesheet" type="text/css" href="http://www.frenchscene.net/Gui/css/form.import.css" />
+<link rel="stylesheet" type="text/css" href="/Gui/css/form.import.css" />
 
 
 </head>
@@ -44,8 +44,8 @@ pageTracker._trackPageview();
 
 <div id="menu">
 
-<a href="http://www.frenchscene.net/index.php">Home</a> | 
-<a href="http://www.frenchscene.net/french-song-search">French Songs</a>
+<a href="/index.php">Home</a> | 
+<a href="/french-song-search">French Songs</a>
 | Articles | 
 Great Moments | 
 Community
@@ -54,12 +54,12 @@ Community
 
 
 <div id="topbanner">
-<img src="http://www.frenchscene.net/Gui/images/site/topbanner.jpg" width="980" height="350" border="0" usemap="#Map" />
+<img src="/Gui/images/site/topbanner.jpg" width="980" height="350" border="0" usemap="#Map" />
 </div>
 
 <div align="center" id="banner">
 <a href="http://50f6cd13h2n5z4wcplqgi73k24.hop.clickbank.net" onClick="javascript: pageTracker._trackPageview
-('/bannerads/rocketfrench/learnfrench');"> <img src="http://www.frenchscene.net/Gui/images/site/learnfrench.jpg"  /> </a>
+('/bannerads/rocketfrench/learnfrench');"> <img src="/Gui/images/site/learnfrench.jpg"  /> </a>
 </div>
 <br />
 
@@ -75,7 +75,7 @@ Community
 <h1>Featured French Song</h1>
 
 
-<div class="right"><img  height="100px" src="http://www.frenchscene.net/Gui/images/artists/laurent_konrad-discobitch_small.jpg" /></div><div class="left"><p>Artist:<a href="/artists/17/biography-discobitch">Discobitch </a><br />Song:<a href="/french-songs/49/clips-c-est-beau-la-bourgeoisie-by-discobitch">C'est Beau la Bourgeoisie</a><br />
+<div class="right"><img  height="100px" src="/Gui/images/artists/laurent_konrad-discobitch_small.jpg" /></div><div class="left"><p>Artist:<a href="/artists/17/biography-discobitch">Discobitch </a><br />Song:<a href="/french-songs/49/clips-c-est-beau-la-bourgeoisie-by-discobitch">C'est Beau la Bourgeoisie</a><br />
 Released: 2008 <br /> <br /><a href="/french-songs/49/clips-c-est-beau-la-bourgeoisie-by-discobitch">Click here to listen now!</a></p></div>
 
 <!--end song -->
@@ -89,7 +89,7 @@ Released: 2008 <br /> <br /><a href="/french-songs/49/clips-c-est-beau-la-bourge
 <h1>Featured French Classic</h1>
 
 
-<div class="right"><img  height="100px" src="http://www.frenchscene.net/Gui/images/artists/axellered152_small.jpg" /></div><div class="left"><p>Artist:<a href="/artists/3/biography-axelle-red">Axelle Red</a><br />Song:<a href="/french-songs/38/clips-sensualite-by-axelle-red">Sensualité </a><br />
+<div class="right"><img  height="100px" src="/Gui/images/artists/axellered152_small.jpg" /></div><div class="left"><p>Artist:<a href="/artists/3/biography-axelle-red">Axelle Red</a><br />Song:<a href="/french-songs/38/clips-sensualite-by-axelle-red">Sensualité </a><br />
 Released: 1993 <br /> <br /><a href="/french-songs/38/clips-sensualite-by-axelle-red">Click here to listen now!</a></p></div>
 
 <!--end song -->
@@ -120,7 +120,7 @@ Released: 1993 <br /> <br /><a href="/french-songs/38/clips-sensualite-by-axelle
 
 
 <div class="right"><img 
-	src="http://www.frenchscene.net/Gui/images/artists/greg123464_small.jpg" /></div>
+	src="/Gui/images/artists/greg123464_small.jpg" /></div>
 
 <div class="left">
 <p>Artist: <a href="/artists/25/biography-gregoire">Grégoire </a> <br />
@@ -181,5 +181,5 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
  
   
 </body>
-<map name="Map" id="Map"><area shape="rect" coords="252,212,747,259" href="http://www.frenchscene.net/FrenchScene/community/viewtopic.php?f=4&amp;t=3" target="_self" />
+<map name="Map" id="Map"><area shape="rect" coords="252,212,747,259" href="/FrenchScene/community/viewtopic.php?f=4&amp;t=3" target="_self" />
 </html>

@@ -4,4 +4,4 @@ Disallow:
 User-agent: *
 Disallow: /search
 
-Sitemap: http://www.frenchscene.net/feeds/posts/default?orderby=updated
+Sitemap: /feeds/posts/default?orderby=updated
