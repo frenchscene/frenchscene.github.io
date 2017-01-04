@@ -1,0 +1,676 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>French Music | French Songs | French Pop Music FrenchScene.Net</title>
+
+
+
+<script type="text/javascript" src="../js/javascript.js"></script>
+
+<script type="text/javascript" src="../js/prototype.js"></script>
+
+<link rel="stylesheet" type="text/css" href="http://www.frenchscene.net/FrenchScene/Gui/css/form.css" />
+
+<link rel="stylesheet" type="text/css" href="http://www.frenchscene.net/FrenchScene/Gui/css/form.import.css" />
+
+<style type="text/css">
+
+
+
+body {
+
+  text-align: center;
+
+  font-family: Georgia, "Times New Roman";
+
+    margin: 0px;
+
+	padding:0px;
+
+		font-size:16px;
+
+		color:white;
+
+		background-color:#C7BDA3;  
+
+	
+
+  }
+
+  
+
+A:link {text-decoration: none;color:#C7BDA3;}
+
+A:visited {text-decoration: none;color:#C7BDA3;}
+
+A:active {text-decoration: none;color:#C7BDA3;}
+
+A:hover {text-decoration: underline; color: white;}
+
+
+
+  
+
+#container {
+
+  margin: 0 auto;
+
+  width: 980px;
+
+  text-align: left;
+
+  }  
+  
+
+  
+
+  #topbanner {
+
+   width:980px;
+
+   height:350px;
+
+  }  
+  
+   #topbanner img {
+   
+   	border: 0px;
+
+	padding: 0px;
+
+	margin:0px;
+   
+  }  
+  
+    .forumlink {
+
+   position:absolute;
+
+	left:410px;
+
+	top:300px;
+	
+	font-weight:strong;
+
+  }  
+
+  #topbanner a
+  {
+     color:white;
+	 font-weight:bolder;
+  }
+
+  
+
+    #menu {
+
+    font-size:20px;
+
+	position:absolute;
+
+	left:317px;
+
+	top:27px;
+
+	color:#fdfcfa;
+
+  }  
+
+  
+
+      #contentcontainer {
+
+	width:980px;
+
+  }   
+
+  
+
+     #center {
+
+	   padding:0px;
+
+	   margin-left:10px;
+
+    width:525px;
+
+  }
+
+  
+
+     #big_center {
+
+	   padding:0px;
+
+	   margin-left:10px;
+
+    width:950px;
+
+  }
+
+  
+
+       #right {
+
+	   padding:0px;
+
+	 float:right;
+
+	 margin-right:10px;
+
+	  margin-top:0px;
+
+	    margin-bottom:0px;
+
+		margin-left:0px;
+
+    width:400px;
+
+  }
+
+  
+
+  
+
+       #artist {
+
+	background-color:#95695B;
+
+	border:dashed 0.1em white;
+
+	overflow:hidden;
+
+	
+
+  }
+
+  
+
+    #song {
+
+    height:180px;
+
+	background-color:#95695B;
+
+	border:dashed 0.1em white;
+
+	padding:0px;
+
+	margin-bottom:15px;
+
+  }
+
+  
+
+      #classic {
+
+	height:180px;
+
+	background-color:#95695B;
+
+	border:dashed  0.1em white;
+
+	padding:0px;
+
+  }
+
+    
+
+  
+
+  h1{
+
+   width:99%;
+
+   color:#95695B;
+
+   margin-top:15px;
+
+   background-color:#C7BDA3;
+
+   border-top-width:medium;
+
+   border-bottom-width:medium;
+
+   border-top-color:white;
+
+   border-bottom-color:white;
+
+   border-top-style:solid;
+
+   border-bottom-style:solid;
+
+   	font-size:20px;
+
+   padding-left:5px;
+
+     font-weight:bold;
+
+	 
+
+	 padding-bottom:0px;
+
+	 margin-bottom:5px;
+
+	 
+
+  
+
+  }
+
+  
+
+  h3
+
+  {
+
+    width:99%;
+
+   color:#95695B;
+
+   margin-top:5px;
+
+    margin-bottom:10px;
+
+   background-color:#C7BDA3;
+
+   border-top-width:medium;
+
+   border-bottom-width:medium;
+
+   border-top-color:white;
+
+   border-bottom-color:white;
+
+   border-top-style:solid;
+
+   border-bottom-style:solid;
+
+   	font-size:20px;
+
+   padding-left:5px;
+
+     font-weight:bold;
+
+	 
+
+	 padding-bottom:0px;
+
+	
+
+  }
+
+  
+
+    h2{
+
+	 margin: 0px 0px 0px 0px;
+
+     padding: 0px 0px 0px 0px;
+
+   color:#95695B;
+
+   width:300px;
+
+   background-color:#C7BDA3;
+
+   border-top-width:medium;
+
+   border-bottom-width:medium;
+
+   border-top-color:white;
+
+   border-bottom-color:white;
+
+   border-top-style:solid;
+
+   border-bottom-style:solid;
+
+   	font-size:16px;
+
+   padding-left:5px;
+
+     font-weight:bold;
+
+     width:60%;
+
+	 
+
+  
+
+  }
+
+
+
+  img {
+
+	border: 1px solid #666;
+
+	background: #95845B;
+
+	padding: 5px 5px 5px;
+
+	margin:5px;
+
+   } 
+
+   
+
+   .img_small_padding
+
+   {
+
+   	border: 1px solid #666;
+
+	background: #95845B;
+
+   }
+
+  
+
+  p {
+
+  font-size:16px;
+
+  padding-left:6px;
+
+  padding-right:6px;
+
+  font-weight:bold;
+
+  line-height: 14pt;
+
+  
+
+   margin-top: 4px;
+
+   padding-bottom:3px;
+
+  padding-top: 4px;
+
+  }
+
+  
+
+  .left
+
+  {
+
+
+
+  }
+
+  
+
+  .right
+
+  {
+
+  float:right;
+
+  }
+
+  
+
+  
+
+  
+
+  ul#tabnav { /* general settings */
+
+text-align: left; /* set to left, right or center */
+
+margin: 10px 0 0 0; /* set margins as desired */
+
+
+
+font: bold 16px georgia, arial, sans-serif; /* set font as desired */
+
+border-bottom: 1px solid white; /* set border COLOR as desired */
+
+list-style-type: none;
+
+padding: 3px 10px 3px 10px; /* THIRD number must change with respect to padding-top (X) below */
+
+}
+
+
+
+ul#tabnav li { /* do not change */
+
+display: inline;
+
+}
+
+
+
+body#tab1 li.tab1, body#tab2 li.tab2, body#tab3 li.tab3, body#tab4 li.tab4 { /* settings for selected tab */
+
+border-bottom: 1px solid #fff; /* set border color to page background color */
+
+background-color: #C7BDA3; /* set background color to match above border color */
+
+}
+
+
+
+body#tab1 li.tab1 a, body#tab2 li.tab2 a, body#tab3 li.tab3 a, body#tab4 li.tab4 a { /* settings for selected tab link */
+
+background-color: #C7BDA3; /* set selected tab background color as desired */
+
+color: #000; /* set selected tab link color as desired */
+
+position: relative;
+
+top: 1px;
+
+padding-top: 4px; /* must change with respect to padding (X) above and below */
+
+}
+
+
+
+ul#tabnav li a { /* settings for all tab links */
+
+padding: 3px 4px; /* set padding (tab size) as desired; FIRST number must change with respect to padding-top (X) above */
+
+border: 1px solid white; /* set border COLOR as desired; usually matches border color specified in #tabnav */
+
+background-color: #C7BDA3; /* set unselected tab background color as desired */
+
+color: #666; /* set unselected tab link color as desired */
+
+margin-right: 0px; /* set additional spacing between tabs as desired */
+
+text-decoration: none;
+
+border-bottom: none;
+
+}
+
+
+
+ul#tabnav a:hover { /* settings for hover effect */
+
+background: #fff; /* set desired hover color */
+
+}
+
+
+
+p img
+
+{
+
+float:right;
+
+}
+
+
+
+.clipbox
+
+{
+
+float:left;
+
+}
+
+
+
+.cliptext 
+
+{
+
+text-align:center;
+
+}
+
+
+
+.clipcontainer
+
+{
+
+height:200px;
+
+}
+
+
+
+
+
+.important
+
+{
+
+color:#C7BDA3;
+
+border:1px solid black;
+
+padding:3px;
+
+font-weight:bold;
+
+}
+
+
+
+/*Credits: Dynamic Drive CSS Library */
+
+/*URL: http://www.dynamicdrive.com/style/ */
+
+
+
+.thumbnail{
+
+position: relative;
+
+z-index: 0;
+
+}
+
+
+
+.thumbnail:hover{
+
+background-color: transparent;
+
+z-index: 50;
+
+}
+
+
+
+.thumbnail span{ /*CSS for enlarged image*/
+
+position: absolute;
+
+background-color: lightyellow;
+
+padding: 5px;
+
+left: -1000px;
+
+border: 1px dashed gray;
+
+visibility: hidden;
+
+color: black;
+
+text-decoration: none;
+
+}
+
+
+
+.thumbnail span img{ /*CSS for enlarged image*/
+
+border-width: 0;
+
+padding: 2px;
+
+}
+
+
+
+.thumbnail:hover span{ /*CSS for enlarged image on hover*/
+
+visibility: visible;
+
+top: 0;
+
+left: 60px; /*position where enlarged image should offset horizontally */
+
+
+
+}
+
+
+
+  
+
+</style> 
+
+
+
+
+
+</head>
+
+
+
+<body>
+
+
+
+
+
+<div id="container">
+
+<!-- begin container !-->
+
+
+
+<div id="menu">
+
+Home | French Songs | French Artists | Great Moments | Community
+
+</div>
+
+
+
+<div id="topbanner">
+<img src="http://www.frenchscene.net/FrenchScene/Gui/images/site/topbanner.jpg" width="980" height="350" border="0" usemap="#Map" />
+</div>
+
+
+
+<div id="contentcontainer"> 
+
+ <!-- begin-content-container !--><div style="border: solid red 1px; margin: 2px;"><p style="margin: 0 0 2px 0; padding: 0; background-color: #DDF;"><strong style="padding: 0 3px; background-color: red; color: white;">Error:</strong> <span style="font-family: monospace;">SELECT * FROM artist WHERE artist_id = </span></p><p style="margin: 2px;">You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1</p></div>
